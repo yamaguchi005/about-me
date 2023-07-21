@@ -1,8 +1,16 @@
 /*Topのみで使うCSS*/
 @charset "UTF-8";
 
+
+.h1{
+    color:white;
+    text-align:center;
+    font-size:200px
+}
+
+
 .body{
-    background-image:url(img/jan-kopriva-24Qs14NstDQ-unsplash.jpg); 
+    background-image:url(./img/jan-kopriva-24Qs14NstDQ-unsplash.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,12 +33,13 @@
 }
 
 .nav-toggle:checked ~ .btn-burger{
-    background: url(img/batu.svg) center center / 26px 26px no-repeat;
+    background: url(img/batu.jpg) center center / 26px 26px no-repeat;
 }
 
 .nav {
-    padding-top: 60px;
-    background: url(img/uriel-soberanes-5hc56cf64Gc-unsplash.jpg) center center / cover no-repeat;
+    color:white;
+    padding-top: 0px;
+    background-color:black;
 }
 .nav-list {
     display: none;
@@ -45,9 +54,9 @@
 
 .nav-list a {
     display: block;
-    color: #fff;
+    color: #000000;
 }
 
-.nav-toggle:checked ~ .nav .navlist {
+.nav-toggle:checked ~ .nav .nav-list {
     display: block;
 }

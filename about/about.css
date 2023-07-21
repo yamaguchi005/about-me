@@ -1,1 +1,27 @@
-/*aboutだけで使うCSS*/
+
+@charset "UTF-8";
+
+.body{
+    background-image:url(../img/connor-carruthers-2XlRNChm2rg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1{
+    color:white;
+    text-align:center;
+    font-size:40px;
+    font-family: 游明朝;
+}
+
+.sec{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    font-family: 游明朝;
+}
+
+.nav{
+    color:aliceblue;
+    display:fle
+}
