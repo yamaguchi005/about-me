@@ -5,12 +5,13 @@
 .h1{
     color:white;
     text-align:center;
-    font-size:200px
+    font-size:150px;
+    font-family: Georgia;
 }
 
-
 .body{
-    background-image:url(./img/jan-kopriva-24Qs14NstDQ-unsplash.jpg); 
+    background-image:url(./img/marek-piwnicki-k0Jn-U0WzYM-unsplash.jpg
+    ); 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -39,7 +40,6 @@
 .nav {
     color:white;
     padding-top: 0px;
-    background-color:black;
 }
 .nav-list {
     display: none;
@@ -54,9 +54,31 @@
 
 .nav-list a {
     display: block;
-    color: #000000;
+    color: white;
 }
 
 .nav-toggle:checked ~ .nav .nav-list {
     display: block;
+}
+
+.nav{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nav-list li{
+    display: inline-block;
+    margin: 0px;
+    border-left: 1px solid black;
+}
+
+.nav-list li:first-child{
+    border-left: none;
+}
+
+.nav-list a {
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 1.2;
+    text-transform: uppercase;
 }

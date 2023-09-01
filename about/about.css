@@ -2,26 +2,27 @@
 @charset "UTF-8";
 
 .body{
-    background-image:url(../img/connor-carruthers-2XlRNChm2rg-unsplash.jpg);
+    background-image:url(../img/marek-piwnicki-k0Jn-U0WzYM-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .h1{
-    color:white;
+    color:black;
     text-align:center;
     font-size:40px;
-    font-family: 游明朝;
+    font-family: Georgia;
 }
 
 .sec{
     text-align: center;
     font-size: 30px;
-    color:white;
-    font-family: 游明朝;
+    color:black;
+    font-family: Georgia;
 }
 
 .nav{
-    color:aliceblue;
-    display:fle
+    color:black;
+    display:flex;
+    
 }
