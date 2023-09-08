@@ -6,3 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.hed{
+    color:black;
+    text-align:center;
+    font-size: 100px;
+    font-family: Georgia;  
+}
